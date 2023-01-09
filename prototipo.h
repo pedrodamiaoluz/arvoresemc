@@ -3,6 +3,8 @@
 
 typedef struct no NoArv;
 
+void menu(void);
+
 NoArv *inserir_versao_1(NoArv *raiz, int num);
 
 void inserir_versao_1_Imprimir(NoArv *raiz);
